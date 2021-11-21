@@ -1,0 +1,95 @@
+/*{
+	padding:0px;
+	margin:0px;
+}
+header , nav , main , footer{
+	display:block;
+}
+
+header{
+	font:bold 25px Tahoma;
+	background-image:url('jokes.jpg');
+	margin:0px;
+	padding:40px;
+	color:white;
+	text-align:center;
+}
+nav{
+	background-color:#000000;
+	color:white;
+}
+nav li{
+	display:inline-flex;
+	font:italic 30px white;
+	margin-left: 40px;
+	color:white;
+}
+nav li a{
+	color:white;
+	height:40px;
+	text-decoration:none;
+}
+nav li a:hover{
+	color:#000000;
+	background-color:white;
+	padding:2px;
+}
+blockquote{
+	
+	padding:0.5em;
+	border-bottom:1px solid #ccc;
+	font-family:cursive;
+	font-size:20px;
+	width:100%;
+	color:black;
+	background-color:green;
+}
+blockquote p {display: table-cell; width: 90%;
+	vertical-align: top;
+	}
+blockquote form {
+	display: table-cell; 
+	width: 10%;
+	
+	}
+
+footer{
+	font:20px tahoma;
+	margin-top:10px;
+	text-align:center;
+	background-color:black;
+	color:white;
+	position:relative;
+	bottom:0;
+	width:100%;
+	padding:30px 40px;
+	text-align:center;
+}*/
+*{
+	box-sizing:border-box;
+}
+.col-25{
+	width:25%;
+	float:left;
+	margin-top:6px;
+}
+.col-75{
+	width:65%;
+	float:left;
+	margin-top:6px;
+}
+#submit{
+	background-color:#0066ff;
+	color:white;
+	cursor:pointer;
+	padding:12px 20px;
+	float:right;
+	border-radius:40px;
+	font-size:20px;
+	font-family:'san-serif';
+	
+	
+}
+#submit:hover{
+	background-color:#3333cc;
+}
